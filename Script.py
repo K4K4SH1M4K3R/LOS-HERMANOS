@@ -3,7 +3,6 @@ import sys
 import os as sistema                                            
 # Set color                                                     
 R = '\033[31m' # Red                                           
- N = '\033[1;37m' # White
 os.system("cd banner;python2 banner4.py")                       print                                                           print
 print ""+N+"       =[ "+O+"LOS HERMANOS CURSOS"+N+"        >print "+ -- --=[ LOS DA PIROCA GRANDE"
 print "+ -- --=[ Blog meu ai fds https://onerswerswebprivada.blogspot.com/?m=1 "+N+
